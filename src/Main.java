@@ -1,16 +1,17 @@
 public class Main {
 
     public static void main(String[] args) {
-        Author DSimons = new Author("Дэн", "Симмонс");
-        System.out.println("DSimons.firstName = " + DSimons.getFirstName());
-        System.out.println("DSimons.getSecondName() = " + DSimons.getSecondName());
-        //String authorForBook = DSimons.getFirstName() + " " + DSimons.getSecondName();
-        Book giperion = new Book("Гиперион", DSimons,1989);
-        System.out.println("Название книги - " + giperion.getName());
-        System.out.println("Автор - " + giperion.getAuthor());
-        System.out.println("Год публикации - " + giperion.getPublishingYear());
-        giperion.setPublishingYear(1990);
-        System.out.println("Год публикации - " + giperion.getPublishingYear());
-
-    }
+//        App printSeparator = new App();
+//        App.printSeparator();
+//        Author DSimons = new Author("Дэн", "Симмонс");
+//        Book giperion = new Book("Гиперион", DSimons, 1989);
+//        System.out.println(giperion);
+//        App.printSeparator();
+//        Author KVonegut = new Author("Курт", "Воннегут");
+//        Book mechPiano = new Book("Механическое пианино", KVonegut, 1952);
+//        System.out.println(mechPiano);
+//        App.printSeparator();
+//        mechPiano.setPublishingYear(1888);
+//        System.out.println("Возможный год публикации - " + mechPiano.getPublishingYear());
+}
 }
